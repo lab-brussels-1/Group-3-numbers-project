@@ -10,11 +10,12 @@ const addNumber = () => {
   debugger;
 
   // read the user's number
-
+  const newNumber = readNumber('the-num');
   // add it to the array of numbers
-
+ numbers.push(newNumber);
   // generate and display a string listing all numbers
+  display('your-output', listItems(numbers));
 };
 
 // !! fill in this blank with the correct DOM ID
-document.getElementById('__').addEventListener('click', addNumber);
+document.getElementById('add-it').addEventListener('click', addNumber);
