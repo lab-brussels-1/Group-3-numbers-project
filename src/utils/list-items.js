@@ -13,4 +13,10 @@
  * listItems([2, 5, 0, -3]); //--> "* 2\n* 5\n* 0\n* -3\n"
  *
  */
-export const listItems = (arr = []) => {};
+export const listItems = (arr = []) => {
+    let numbersList = '';
+    for (const num of arr) {
+        numbersList += `* ${num}\n`;
+    }
+    return numbersList
+}
