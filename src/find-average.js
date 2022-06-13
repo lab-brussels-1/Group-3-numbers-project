@@ -7,7 +7,7 @@ import { average } from './utils/average.js';
 const findAverage = () => {
   debugger;
 
-  /display('your-output', average(numbers));
+  display('your-output', average(numbers));
   // display the average in the UI
 };
 
