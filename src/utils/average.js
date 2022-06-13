@@ -4,10 +4,10 @@
  * @param {number[]} [nums=[]] - The numbers to average.
  * @returns {number} The average of all numbers.
  */
-export const average = (arr = []) => {
-  let average = 0;
-  for (const num of arr) {
-    average += num / arr.length;
+export const average = (nums = []) => {
+  let avg = 0;
+  for (const num of nums) {
+    avg += num / nums.length;
   }
-  return average;
+  return avg;
 };
