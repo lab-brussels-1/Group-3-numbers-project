@@ -10,12 +10,11 @@ const addNumber = () => {
   debugger;
 
   // read the user's number
-const newNumbers= readNumber('the-num');
+  const newNumber = readNumber('the-num');
   // add it to the array of numbers
-numbers.push(newNumbers);
+ numbers.push(newNumber);
   // generate and display a string listing all numbers
-
-display('your-output', listItems(numbers));
+  display('your-output', listItems(numbers));
 };
 
 // !! fill in this blank with the correct DOM ID
