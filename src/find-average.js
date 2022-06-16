@@ -11,7 +11,7 @@ const findAverage = () => {
 
   // display the average in the UI
 
-  display('your-output',"The Average is" +average(numbers));
+  display('your-output', 'The Average is' + average(numbers));
 };
 
 // !! fill in this blank with the correct DOM ID

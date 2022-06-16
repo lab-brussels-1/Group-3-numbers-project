@@ -5,7 +5,7 @@
  * @returns {number} The sum of all numbers in the list.
  */
 export const sum = (nums = []) => {
-let add = 0;
+  let add = 0;
   for (const num of nums) {
     add = add + num;
   }

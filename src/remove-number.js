@@ -11,7 +11,7 @@ const removeNumber = () => {
   const newNumber = readNumber('the-num');
   // remove the user's number from the array
 
-  // Using splice() to remove arbitrary item .It takes an index and 
+  // Using splice() to remove arbitrary item .It takes an index and
   // amount of items to delete starting from that index.
   for (let i = 0; i < numbers.length; i++) {
     if (numbers[i] === newNumber) {
@@ -19,7 +19,7 @@ const removeNumber = () => {
     }
   }
   // display the new list of numbers (use the util function!)
-  display('your-output',"The new list is" + listItems(numbers));
+  display('your-output', 'The new list is' + listItems(numbers));
 };
 
 // !! fill in this blank with the correct DOM ID
