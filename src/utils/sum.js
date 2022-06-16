@@ -9,5 +9,5 @@ export const sum = (nums = []) => {
   for (const num of nums) {
     allnum += num;
   }
-  return allnum;
+  return `sum: ${allnum}`;
 };
