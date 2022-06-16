@@ -7,7 +7,7 @@ import { average } from './utils/average.js';
 const findAverage = () => {
 
   // calculate the average of all saved numbers  (use your util function!)
-
+  
   // display the average in the UI
 
   display('your-output', 'The Average is' + average(numbers));
