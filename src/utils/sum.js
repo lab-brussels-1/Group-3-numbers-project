@@ -7,7 +7,7 @@
 export const sum = (nums = []) => {
   let add = 0;
   for (const num of nums) {
-    add = add + num;
+    add += num;
   }
   return add;
 };
