@@ -17,7 +17,7 @@ const removeNumber = () => {
     }
   }
   // display the new list of numbers (use the util function!)
-  display('your-output','The new list is'+ listItems(numbers));
+  display('your-output', 'The new list is' + listItems(numbers));
 };
 
 // !! fill in this blank with the correct DOM ID
