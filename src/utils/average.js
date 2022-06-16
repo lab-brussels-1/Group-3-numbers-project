@@ -9,5 +9,5 @@ export const average = (nums = []) => {
   for (const num of nums) {
     avg += num / nums.length;
   }
-  return avg;
+  return `average: ${avg}`;
 };
