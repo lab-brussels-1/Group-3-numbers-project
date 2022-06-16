@@ -5,8 +5,6 @@ import { readNumber, display } from '../lib/dom-io.js';
 import { listItems } from './utils/list-items.js';
 
 const removeNumber = () => {
-  debugger;
-
   // read the user's number
   const newNumber = readNumber('the-num');
   // remove the user's number from the array
@@ -19,7 +17,7 @@ const removeNumber = () => {
     }
   }
   // display the new list of numbers (use the util function!)
-  display('your-output', 'The new list is' + listItems(numbers));
+  display('your-output','The new list is'+ listItems(numbers));
 };
 
 // !! fill in this blank with the correct DOM ID
