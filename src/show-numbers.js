@@ -1,12 +1,12 @@
-import { numbers } from '../data.js';
+// eslint-disable-next-line import/no-unresolved
+import { numbers } from '../numbers.js';
 
 import { display } from '../lib/dom-io.js';
 
 import { listItems } from './utils/list-items.js';
 
 const showNumbers = () => {
-
-listItems(numbers);
+  listItems(numbers);
   // generate a string list of all numbers (use the util!)
   display('your-output', listItems(numbers));
   // display the list of numbers to the UI
