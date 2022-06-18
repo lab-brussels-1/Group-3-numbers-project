@@ -13,18 +13,18 @@ const removeNumber = () => {
     const removed = numbers.filter((num) => num !== number);
     numbers.splice(0, numbers.length, ...removed);
     // display the new list of numbers (use the util function!)
-    display('your-output', 'Maria soulution\n' + listItems(numbers));
-  } else if (mate === 'Haneefa'){
+    display('your-output', `Maria solution\n${listItems(numbers)}`);
+  } else if (mate === 'Haneefa') {
     const newNumber = readNumber('the-num');
     // remove the user's number from the array
     for (let i = 0; i < numbers.length; i++) {
       if (numbers[i] === newNumber) {
         numbers.splice(i, 1);
-      --i;
+        --i;
       }
     }
     // display the new list of numbers (use the util function!)
-    display('your-output', 'Haneefa solution\n' + listItems(numbers));
+    display('your-output', `Haneefa solution\n${listItems(numbers)}`);
   }
 };
 
