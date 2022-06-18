@@ -3,10 +3,9 @@ import { numbers } from '../numbers.js';
 import { readNumber, display } from '../lib/dom-io.js';
 
 import { listItems } from './utils/list-items.js';
-import { teammates } from './choose_solution.js';
 
 const removeNumber = () => {
-  const mate = teammates();
+  const mate = document.getElementById('team').value;
   if (mate === 'Maria') {
     // read the user's number
     const number = readNumber('the-num');
